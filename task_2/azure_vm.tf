@@ -1,3 +1,4 @@
+# First, let;s create network interface for our VM
 resource "azurerm_network_interface" "terraform_course_nic" {
   name = "${var.project_name}-nic"
   location = var.resource_location
@@ -11,6 +12,7 @@ resource "azurerm_network_interface" "terraform_course_nic" {
   }
 }
 
+# Second, the VM itself
 resource "azurerm_virtual_machine" "terraform_course_vm" {
   name = "${var.project_name}-vm"
   location = var.resource_location
