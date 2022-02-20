@@ -6,6 +6,6 @@
 ![alt tag](terraform_course_2_1.png)
 
 Проверяем:
-terraform_course_2_2.png
+![alt tag](terraform_course_2_2.png)
 
 · (Дополнительно) Добавить в манифест код для создания базы данных AWS RDS/Azure Database. Тип базы на ваше усмотрение.
